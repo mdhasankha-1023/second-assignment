@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #fff;
     font-family: 'Work Sans';
 }
 
@@ -31,7 +32,9 @@ a {
 
 /* navigation bar styles */
 header {
-    padding: 0px 228px;
+    padding: 0px 228px 45px 228px;
+    margin-bottom: 85px;
+    background: rgba(255, 144, 14, 0.1);
 }
 
 .nav-bar {
@@ -85,4 +88,57 @@ header {
 .banner-pic img {
     width: 100%;
     border-radius: 8px;
+}
+
+/*------------------------
+    main section styles
+-------------------------- */
+
+/* featur section styles */
+
+.feature-list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 228px;
+
+}
+
+.feature-pic {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+
+}
+.feature-pic img{
+    width: 100%;
+}
+.feature-info{
+    width: 40%;
+    
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #727272;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+.black{
+    color: #131313;
+}
+.primary{
+    color: #FF900E;
+}
+
+.feature-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    text-align: left;
 }
