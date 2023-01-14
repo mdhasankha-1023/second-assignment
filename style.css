@@ -1,0 +1,88 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*------------------------
+        common styles
+    ------------------------ */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-common {
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 24px;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-------------------------
+        header styles
+    ------------------------- */
+
+/* navigation bar styles */
+header {
+    padding: 0px 228px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    margin-left: 28px;
+}
+
+.nav-menu ul li a {
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner-info {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.banner-pic img {
+    width: 100%;
+    border-radius: 8px;
+}
