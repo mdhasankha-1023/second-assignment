@@ -20,6 +20,7 @@ body{
     color: #fff;
     padding: 20px 24px;
     border: none;
+    cursor: pointer;
 }
 
 a {
@@ -177,6 +178,7 @@ header {
     color: #fff;
     margin: auto;
     display: block;
+    cursor: pointer;
 }
 
 .works-pic img {
@@ -239,6 +241,8 @@ header {
     padding: 45px 10px 30px 10px;
     border: 1px solid #FF900E;
     text-align: center;
+    cursor: pointer;
+    transition: all 1s;
 }
 
 .fact img {
@@ -261,6 +265,12 @@ header {
     color: #727272;
     margin: 0px;
     padding: 0px 25px 15px 25px;
+}
+ 
+/* hover styles */
+.fact:hover{
+    background-color: #FF900E;
+
 }
 
 /* sponsors secton styles */
@@ -302,38 +312,30 @@ header {
 .contact {
     margin-top: 150px;
     padding: 0px 228px;
-}
-
-form {
-    border: 1px solid #727272;
-    padding: 50px 10px;
-    border-radius: 5px;
-}
-
-.con-title {
-    text-align: center;
-    color: #131313;
-    font-size: 46px;
-    width: 700;
-}
-
-label {
-    font-size: 22px;
-    font-weight: 500;
-    color: #131313;
-    margin-bottom: 10px;
 
 }
+form{
+    background-color: #FFF4E7;
+    padding: 40px;
+    text-align: left;
+    border-radius: 8px;
+}
 
-label input {
+form label{
+    font-size: 30px;
+    color: #383636;
+}
+form input{
     width: 80%;
-    padding: 20px;
-    border: .5px solid #727272;
-    border-radius: 2px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
 }
-
-label input[type="checkbox"] {
-    width: 30px;
+form textarea{
+    width: 80%;
+    border: none;
+    border-radius: 8px;
 }
 
 /*----------------------
