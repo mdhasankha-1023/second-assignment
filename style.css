@@ -361,7 +361,7 @@ footer {
 
 /* mobile devices */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 688px) {
     header{
         width: 100%;
     }
