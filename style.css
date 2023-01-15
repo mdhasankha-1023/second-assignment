@@ -361,14 +361,11 @@ footer {
 
 /* mobile devices */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 576px) {
     header{
         width: 100%;
     }
     .nav-bar{
-        flex-direction: column;
-    }
-    .nav-menu ul{
         flex-direction: column;
     }
     .banner{
