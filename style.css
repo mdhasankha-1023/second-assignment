@@ -351,3 +351,71 @@ footer {
     padding: 22px 0px;
     text-align: center;
 }
+.heid{
+    display: none;
+}
+
+/*------------------
+   media quaris 
+--------------------*/
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+    header{
+        width: 100%;
+    }
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-menu ul{
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .feature-list{
+        width: 100%;
+        flex-direction: column;
+    }
+    .feature-pic{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-works{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+    .btn{
+        display: none;
+    }
+    .facts{
+       width: 100%;
+    }
+    .fact:hover{
+        background-color: #FF900E;
+    
+    }
+    .facts-item{
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .sponsors{
+        width: 100%;
+    }
+    .spn-logo{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contact{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
+
