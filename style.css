@@ -4,7 +4,7 @@
 /*------------------------
         common styles
     ------------------------ */
-body {
+body{
     margin: 0;
     padding: 0;
     background-color: #fff;
@@ -101,6 +101,7 @@ header {
     align-items: center;
     gap: 70px;
     padding: 0px 228px;
+    margin-bottom: 120px;
 
 }
 
@@ -112,12 +113,14 @@ header {
     grid-row-gap: 24px;
 
 }
-.feature-pic img{
+
+.feature-pic img {
     width: 100%;
 }
-.feature-info{
+
+.feature-info {
     width: 40%;
-    
+
 }
 
 .feature-title {
@@ -128,10 +131,12 @@ header {
     margin-bottom: 24px;
 
 }
-.black{
+
+.black {
     color: #131313;
 }
-.primary{
+
+.primary {
     color: #FF900E;
 }
 
@@ -141,4 +146,206 @@ header {
     color: #727272;
     margin-bottom: 32px;
     text-align: left;
+}
+
+/* feature works section styles */
+
+.feature-works {
+    padding: 0px 228px;
+    display: flex;
+    gap: 54px;
+}
+
+.works {
+    width: 50%;
+}
+
+.works-pic {
+    width: 50%;
+
+}
+
+.btn{
+    position: relative;
+    top: -80px;
+    left: 90px;
+    height: 107px;
+    width: 185px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin: auto;
+    display: block;
+}
+
+.works-pic img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.works-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 34px;
+}
+
+.work {
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.work-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+/* facts section styles */
+
+.facts {
+    padding: 0px 228px;
+}
+
+.facts-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.facts-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact {
+    padding: 45px 10px 30px 10px;
+    border: 1px solid #FF900E;
+    text-align: center;
+}
+
+.fact img {
+    height: 45px;
+    width: 45px;
+
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 0px;
+    padding: 0px 25px 0px 25px;
+}
+
+.fact-des {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0px;
+    padding: 0px 25px 15px 25px;
+}
+
+/* sponsors secton styles */
+
+.sponsors {
+    padding: 0px 210px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.spn-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.spn-des {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.spn-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spn-logo img {
+    height: 30px;
+    width: 100px;
+
+
+}
+
+/* contact section styles */
+
+.contact {
+    margin-top: 150px;
+    padding: 0px 228px;
+}
+
+form {
+    border: 1px solid #727272;
+    padding: 50px 10px;
+    border-radius: 5px;
+}
+
+.con-title {
+    text-align: center;
+    color: #131313;
+    font-size: 46px;
+    width: 700;
+}
+
+label {
+    font-size: 22px;
+    font-weight: 500;
+    color: #131313;
+    margin-bottom: 10px;
+
+}
+
+label input {
+    width: 80%;
+    padding: 20px;
+    border: .5px solid #727272;
+    border-radius: 2px;
+}
+
+label input[type="checkbox"] {
+    width: 30px;
+}
+
+/*----------------------
+  footer section styles
+ ----------------------- */
+footer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 215px 216px 215px;
+}
+
+.foot-info {
+    padding: 22px 0px;
+    text-align: center;
 }
