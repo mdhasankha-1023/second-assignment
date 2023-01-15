@@ -344,7 +344,7 @@ form textarea{
 footer {
     background-color: #FFF4E7;
     border-radius: 8px;
-    margin: 130px 215px 216px 215px;
+    padding: 130px 215px 216px 215px;
 }
 
 .foot-info {
@@ -364,6 +364,7 @@ footer {
 @media only screen and (max-width: 688px) {
     header{
         width: 100%;
+        padding: 0px;
     }
     .nav-bar{
         flex-direction: column;
@@ -378,6 +379,7 @@ footer {
     .feature-list{
         width: 100%;
         flex-direction: column;
+        padding: 0px;
     }
     .feature-pic{
         grid-template-columns: repeat(1, 1fr);
@@ -388,12 +390,14 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
         margin-bottom: 100px;
+        padding: 0px;
     }
     .btn{
         display: none;
     }
     .facts{
        width: 100%;
+       padding: 0px;
     }
     .fact:hover{
         background-color: #FF900E;
@@ -402,10 +406,12 @@ footer {
     .facts-item{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        padding: 0px;
        
     }
     .sponsors{
         width: 100%;
+        padding: 0px;
     }
     .spn-logo{
         flex-direction: column;
@@ -414,8 +420,10 @@ footer {
     }
     .contact{
         width: 100%;
+        padding: 0px;
     }
     footer{
+        padding: 0px;
         width: 100%;
     }
     
