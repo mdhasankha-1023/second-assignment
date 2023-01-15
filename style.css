@@ -344,7 +344,7 @@ form textarea{
 footer {
     background-color: #FFF4E7;
     border-radius: 8px;
-    padding: 130px 215px 216px 215px;
+    margin: 130px 215px 216px 215px;
 }
 
 .foot-info {
@@ -423,7 +423,7 @@ footer {
         padding: 0px;
     }
     footer{
-        padding: 0px;
+        margin: 0px;
         width: 100%;
     }
     
