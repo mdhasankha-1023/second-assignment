@@ -367,10 +367,12 @@ footer {
     }
     .nav-bar{
         flex-direction: column;
+        width: 100%;
     }
     .banner{
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
 
     }
     .feature-list{
@@ -379,6 +381,7 @@ footer {
     }
     .feature-pic{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
     }
     .feature-works{
         width: 100%;
@@ -398,6 +401,7 @@ footer {
     }
     .facts-item{
         grid-template-columns: repeat(1, 1fr);
+        width: 100%;
        
     }
     .sponsors{
@@ -406,6 +410,7 @@ footer {
     .spn-logo{
         flex-direction: column;
         gap: 30px;
+        width: 100%;
     }
     .contact{
         width: 100%;
